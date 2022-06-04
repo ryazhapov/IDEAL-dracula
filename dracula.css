@@ -1,0 +1,531 @@
+span {
+    font-family: 'JetBrains Mono';
+    font-weight: 400;
+}
+
+.scastie .code .cm-s-solarized.cm-s-dark,
+.scastie .configuration .cm-s-solarized.cm-s-dark {
+    color: #a9b7c6;
+    background-color: #2b2b2b
+}
+
+.scastie .cm-s-solarized .cm-keyword {
+    color: #cc7832
+}
+
+.scastie .cm-s-solarized .cm-type {
+    color: #cc7832
+}
+
+.scastie .cm-s-solarized .cm-def {
+    color: #ffc66d
+}
+
+.scastie .cm-s-solarized .cm-variable {
+    color: #a9b7c6
+}
+
+.scastie .cm-s-solarized .cm-string {
+    color: #6a8759
+}
+
+.scastie .cm-s-solarized .cm-number {
+    color: #6897bb
+}
+
+.scastie .CodeMirror .CodeMirror-code > pre > span,
+.scastie .CodeMirror .CodeMirror-code > div > pre > span,
+.scastie .CodeMirror .CodeMirror-linewidget pre {
+    font-weight: 500
+}
+
+.scastie .CodeMirror .CodeMirror-code > pre > span > *,
+.scastie .CodeMirror .CodeMirror-code > div > pre > span > *,
+.scastie .CodeMirror .CodeMirror-linewidget pre > * {
+    font-weight: 500
+}
+
+.scastie .cm-s-solarized .cm-atom {
+    color: #4e807d
+}
+
+.scastie .cm-s-solarized .cm-operator {
+    color: #9876aa
+}
+
+.scastie .cm-s-solarized .cm-comment {
+    color: #629755;
+    font-style: italic
+}
+
+.scastie .cm-s-solarized .CodeMirror-matchingbracket {
+    color: #4e807d !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2px
+}
+
+.scastie .cm-s-solarized.cm-s-dark .cm-matchhighlight {
+    border-bottom-color: #4e807d
+}
+
+.scastie .code .cm-s-solarized.cm-s-dark .CodeMirror-simplescroll-horizontal div {
+    background: #4d4d4d
+}
+
+.scastie .CodeMirror-lines {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0
+}
+
+.scastie .app.light .editor-container .switcher-show {
+    color: #afb1b3;
+    background: #3c3f41
+}
+
+.CodeMirror-gutter {
+    background: #313335
+}
+
+.scastie .code .cm-s-solarized.cm-s-dark .CodeMirror-gutters,
+.scastie .configuration .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
+    border-right: 1px solid #555
+}
+
+.scastie .app.light .sidebar .actions-top .btn.selected {
+    background: #2d2f30;
+    color: #fff
+}
+
+.scastie .app.light .sidebar {
+    background: #3c3f41
+}
+
+.scastie .code .cm-s-solarized.cm-s-dark .CodeMirror-linenumber,
+.scastie .configuration .cm-s-solarized.cm-s-dark .CodeMirror-linenumber {
+    color: #595b5d;
+    font-weight: 500
+}
+
+.scastie .app.light .sidebar .logo {
+    color: #fff;
+    background: #2b2b2b
+}
+
+.scastie .app.light .topbar {
+    line-height: 70px;
+    background: #2b2b2b
+}
+
+.scastie .app.light .editor-topbar,
+.scastie .app.light .editor-mobile {
+    background: #3c3f41;
+    box-shadow: inset 0 -2px 0 0 #2d2f30
+}
+
+.scastie .light .main-panel {
+    background-color: #313335
+}
+
+.scastie .app.light .btn:hover {
+    background: #353739;
+    color: #afb1b3
+}
+
+.scastie .app.light .editor-buttons .btn:hover {
+    color: #afb1b3
+}
+
+.scastie .app.light .editor-buttons .btn {
+    color: #afb1b3;
+    text-decoration: none;
+    display: inline-block
+}
+
+.scastie .app.light .sidebar .actions-top {
+    color: #afb1b3
+}
+
+.scastie .app.light .sidebar .actions-top .btn.selected {
+    background: #2d2f30;
+    color: #afb1b3
+}
+
+.scastie .app.light .workSheetIndicator.enabled {
+    color: #499c54
+}
+
+.scastie .code .cm-s-solarized.cm-s-light,
+.scastie .configuration .cm-s-solarized.cm-s-light {
+    color: #657b83;
+    background-color: #2b2b2b
+}
+
+.scastie .code .cm-s-solarized.cm-s-light .CodeMirror-simplescroll-vertical div,
+.scastie .code .cm-s-solarized.cm-s-light .CodeMirror-simplescroll-horizontal div,
+.scastie .configuration .cm-s-solarized.cm-s-light .CodeMirror-simplescroll-vertical div,
+.scastie .configuration .cm-s-solarized.cm-s-light .CodeMirror-simplescroll-horizontal div {
+    background: #4d4d4d
+}
+
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-widget .fold,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .compilation-info,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .runtime-error,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .line,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .inline {
+    background-color: #4e807d
+}
+
+.scastie .cm-s-solarized.cm-s-light .cm-matchhighlight {
+    border-bottom-color: #4e807d
+}
+
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-widget .fold,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .compilation-info,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .runtime-error,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .line,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .inline {
+    background-color: #202020;
+    font-style: italic
+}
+
+.scastie .CodeMirror .CodeMirror-code > pre > span,
+.scastie .CodeMirror .CodeMirror-code > div > pre > span,
+.scastie .CodeMirror .CodeMirror-linewidget pre {
+    font-weight: 500;
+    color: #90969b
+}
+
+.scastie .cm-s-solarized.cm-s-light .cm-matchhighlight {
+    border-bottom-color: #2b2b2b;
+    background: #344134;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+.CodeMirror-gutter {
+    background: #313335
+}
+
+.scastie .code .cm-s-solarized.cm-s-light .CodeMirror-linenumber,
+.scastie .configuration .cm-s-solarized.cm-s-light .CodeMirror-linenumber {
+    color: #595b5d;
+    font-weight: 500
+}
+
+.scastie .code .cm-s-solarized.cm-s-light .CodeMirror-gutters,
+.scastie .configuration .cm-s-solarized.cm-s-light .CodeMirror-gutters {
+    border-right: 1px solid #555;
+    background-color: #f0efef;
+    font-weight: 500
+}
+
+.scastie .app.light .workSheetIndicator {
+    color: #2b2b2b
+}
+
+.scastie .app.light .editor-topbar,
+.scastie .app.light .editor-mobile {
+    background: #3c3f41;
+    box-shadow: inset 0 -2px 0 0 #313335
+}
+
+.scastie .app.light .editor-topbar,
+.scastie .app.light .editor-mobile {
+    background: #3c3f41;
+    box-shadow: inset 0 -1px 0 0 #313335
+}
+
+.scastie .cm-s-solarized .CodeMirror-matchingbracket {
+    color: #ffef28 !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #2b2b2b;
+    background: #344134;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-selected,
+.scastie .cm-s-solarized.cm-s-light .cm-searching {
+    background: #214283
+}
+
+.scastie .code .cm-s-solarized.cm-s-light .CodeMirror-cursor,
+.scastie .configuration .cm-s-solarized.cm-s-light .CodeMirror-cursor {
+    border-left-color: #bbb
+}
+
+.scastie .CodeMirror .CodeMirror-linewidget .runtime-error i,
+.scastie .CodeMirror .CodeMirror-linewidget .compilation-info.error i {
+    color: #ff6b68
+}
+
+.scastie .app.light .sidebar .actions-bottom .btn {
+    color: #afb1b3
+}
+
+.scastie .app.light .sidebar .actions-bottom .btn.status-up {
+    color: #499c54
+}
+
+.scastie .CodeMirror .CodeMirror-linewidget .runtime-error i,
+.scastie .CodeMirror .CodeMirror-linewidget .runtime-error pre,
+.scastie .CodeMirror .CodeMirror-linewidget .compilation-info i,
+.scastie .CodeMirror .CodeMirror-linewidget .compilation-info pre {
+    display: inline
+}
+
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-widget .fold,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .compilation-info,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .runtime-error,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .line,
+.scastie .cm-s-solarized.cm-s-light .CodeMirror-linewidget .inline {
+    background-color: #41403b;
+    font-style: italic
+}
+
+.scastie .cm-s-solarized .cm-type {
+    color: #4e807d
+}
+
+.scastie .cm-s-solarized.cm-s-light .cm-matchhighlight {
+    border-bottom-color: #344134;
+    background: #344134;
+    padding-top: 2px
+}
+
+.scastie .app.light .status-container {
+    color: #afb1b3;
+    background-color: #313335
+}
+
+.status-container .ready {
+    background-color: #499c54;
+    color: #fff
+}
+
+.status-container .unknown,
+.status-container .initializing,
+.status-container .creating-config,
+.status-container .connecting,
+.status-container .indexing,
+.status-container .needs-reload {
+    background-color: #ffef28;
+    color: #000
+}
+
+.scastie .app.light .settings-container {
+    background-color: #afb1b3
+}
+
+.scastie .app.light .settings-container .build-settings-container h2 span {
+    background-color: #afb1b3
+}
+
+.scastie .app.light .snippets-container .code-snippets-container .snippets .group .snippet a .code {
+    background-color: #2b2b2b;
+    color: #a9b7c6
+}
+
+.scastie .app.light .snippets-container {
+    color: #afb1b3;
+    background-color: #313335
+}
+
+.scastie .app.light .snippets-container .code-snippets-container .snippets .group .snippet:last-child:before {
+    border-left-color: #313335
+}
+
+.scastie .app.light .snippets-container .code-snippets-container h2 {
+    color: #afb1b3
+}
+
+.snippets-container .code-snippets-container .snippets .group .snippet .header {
+    position: relative;
+    padding-left: 20px;
+    font-family: 'JetBrains Mono';
+    font-weight: 700;
+    font-size: 14px;
+    color: #499c54
+}
+
+.scastie .app.light .snippets-container .code-snippets-container .snippets .group:before {
+    border-left-color: #4b6eaf
+}
+
+.scastie .app.light .snippets-container .code-snippets-container .snippets .group .snippet .header:before {
+    border-top-color: #4b6eaf
+}
+
+.scastie .app.light .snippets-container .code-snippets-container .snippets .group .snippet .header .update {
+    color: #4b6eaf
+}
+
+.scastie .app.light .settings-container {
+    color: #afb1b3;
+    background-color: #2b2b2b
+}
+
+.scastie .app.light .settings-container {
+    color: #afb1b3;
+    background-color: #313335
+}
+
+.scastie .app.light .settings-container .build-settings-container h2 span {
+    background-color: #313335;
+    color: #afb1b3
+}
+
+.sidebar {
+    width: 200px
+}
+
+.scastie:not(.embedded) .main-panel {
+    left: 200px
+}
+
+.sidebar .logo {
+    width: 200px
+}
+
+.sidebar .actions-bottom .btn {
+    width: 200px
+}
+
+.scastie .app.light .settings-container .build-settings-container h2:before {
+    border-top-color: #3c3f41;
+}
+
+.scastie .app.light .settings-container .build-settings-container select,
+.scastie .app.light .settings-container .build-settings-container input {
+    background-color: #2b2b2b;
+    color: #afb1b3;
+    border-radius: 0
+}
+
+.scastie .app.light .settings-container .build-settings-container .btn {
+    background-color: #3c3f41
+}
+
+.scastie .app.light .settings-container .build-settings-container input[type="radio"] + label.radio:before {
+    border: 5px solid #3c3f41;
+    background-color: #3c3f41
+}
+
+.scastie .app.light .settings-container .build-settings-container input[type="radio"]:checked + label.radio:before {
+    border: 5px solid #3c3f41 !important;
+    background-color: #4b6eaf !important
+}
+
+.scastie .app.light .settings-container .build-settings-container .select-wrapper:after {
+    color: #afb1b3
+}
+
+.scastie .app.light .editor-container .console {
+    color: #bbb;
+    background: #2b2b2b
+}
+
+.scastie .app.light .editor-container .handler {
+    background: #3c3f41
+}
+
+.scastie .app.light .editor-container .switcher-hide {
+    background: #3c3f41
+}
+
+.scastie .code .cm-s-solarized.cm-s-light .CodeMirror-simplescroll-vertical div,
+.scastie .code .cm-s-solarized.cm-s-light .CodeMirror-simplescroll-horizontal div,
+.scastie .configuration .cm-s-solarized.cm-s-light .CodeMirror-simplescroll-vertical div,
+.scastie .configuration .cm-s-solarized.cm-s-light .CodeMirror-simplescroll-horizontal div {
+    background: #4d4d4d;
+    margin-left: 2px;
+    height: 9px
+}
+
+.sidebar .actions-container {
+    border-right: 1px solid #2b2b2b
+}
+
+.scastie .app.light .snippets-container .code-snippets-container .snippets .group .snippet .header .actions .btn {
+    color: #afb1b3
+}
+
+.scastie .modal .modal-window .modal-inner p.normal {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    padding-left: 20px
+}
+
+.scastie .modal h2 {
+    font-family: 'Segoe UI', serif;
+    color: #afb1b3
+}
+
+.scastie .modal h1 {
+    color: #afb1b3;
+    font-family: 'Segoe UI', serif
+}
+
+.scastie .modal .modal-window .modal-inner p {
+    color: #afb1b3;
+    line-height: 25px;
+    margin: 10px 0
+}
+
+.scastie .modal .modal-window {
+    background: #3c3f41
+}
+
+.scastie .modal .modal-window .modal-header {
+    background: #3c3f41
+}
+
+.scastie .modal .modal-close {
+    background: #3c3f41
+}
+
+.scastie .app.light .topbar ul.actions li.dropdown.selected,
+.scastie .app.light .topbar ul.actions li.dropdown:hover {
+    background-color: #2d2f30;
+    color: #afb1b3
+}
+
+.scastie .app.light .topbar ul.actions li.dropdown ul.subactions .btn {
+    color: #afb1b3;
+    background: #313335;
+    border-bottom-color: rgba(15, 38, 47, 0.15)
+}
+
+.scastie .app.light .topbar ul.actions li.dropdown {
+    color: #afb1b3
+}
+
+.scastie .app.light .topbar ul.actions li.dropdown ul.subactions .btn:hover {
+    background-color: #4b6eaf;
+    color: #afb1b3
+}
+
+[title='Select Dark Theme (F2)'] {
+    visibility: hidden
+}
+
+.scastie .modal .modal-fade-screen .modal-reset .modal-inner .btn {
+    color: #b4b4b4;
+    background-color: #4c5052;
+    border: 1px solid #5e6060;
+}
+
+.scastie .modal .modal-close::after,
+.scastie .modal .modal-close::before {
+    background: #afb1b3;
+}
+
+.scastie .cm-s-solarized .cm-meta {
+    color: #BBB529;
+}
+
+.scastie:not(.embedded) .main-panel {
+    width: calc(100% - 200px);
+}
