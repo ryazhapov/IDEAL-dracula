@@ -12,7 +12,9 @@ CSS-style for [scastie.scala-lang.org](https://scastie.scala-lang.org/) for Chro
 
 ## Comparison
 
+#### Default and Dracula
 ![](/images/default-vs-dracula.png)
 
+#### IDEA and Scastie
 ![](/images/idea-vs-scastie.png)
 
