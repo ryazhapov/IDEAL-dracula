@@ -1,8 +1,8 @@
 # Scastie IDEAL theme
 
-![](/images/scastie-dracula.png)
+CSS-style for [scastie.scala-lang.org](https://scastie.scala-lang.org/) for Chrome
 
-CSS-style for scastie.scala-lang.org for Chrome
+![](/images/scastie-dracula.png)
 
 ## Installation
 
